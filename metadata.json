@@ -1,0 +1,6 @@
+{
+  "name": "A Special Journey for Her",
+  "description": "A premium, cinematic surprise experience celebrating an extraordinary person with warmth and grace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

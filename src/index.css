@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-display: 'Playfair Display', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FDFBF7;
+    color: #2D2926;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-serif-custom {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+}
+
+.font-mono-custom {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Editorial Background Dot Grid */
+.bg-editorial-dots {
+  background-image: radial-gradient(#8B4444 0.6px, transparent 0.6px);
+  background-size: 24px 24px;
+}
+
+/* Glassmorphism & Editorial Paper Panels */
+.glass-panel {
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #E8D3D3;
+}
+
+.glass-panel-dark {
+  background: rgba(26, 26, 26, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(139, 68, 68, 0.35);
+}
+
+.glow-soft {
+  box-shadow: 0 30px 60px -15px rgba(139, 68, 68, 0.08), 0 0 20px -5px rgba(232, 211, 211, 0.4);
+}
+
+.glow-burgundy {
+  box-shadow: 0 20px 45px -10px rgba(139, 68, 68, 0.3);
+}
+
+.editorial-shadow {
+  box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.08);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8D3D3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8B2B2;
+}
+
