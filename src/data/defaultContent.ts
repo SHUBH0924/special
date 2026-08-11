@@ -25,11 +25,10 @@ export const defaultContent: AppContentConfig = {
     aspectRatio: 'portrait'
   },
   poetryLines: [
-    "Khoobsurati ki misaal poochho to naam na lunga,",
-    "bas itna kahunga...",
-    "kuch chehre aise hote hain,",
-    "jinhe dekhkar lagta hai,",
-    "Khuda ne fursat se banaya hai."
+    "Uski khoobsurati ko lafzon mein kaise bayan karun,"
+    "Woh saamne ho to nazrein thehar si jaati hain."
+    "Chehra toh bas ek hissa hai uske husn ka,"
+    "Asli khoobsurati toh uski muskurahat mein nazar aati hai."
   ],
   poetrySubtext: 'A tribute to grace that moves silently.',
   
